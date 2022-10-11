@@ -1,0 +1,12 @@
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\bin\Debug\Market Otomasyonu.exe.config
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\bin\Debug\Market Otomasyonu.exe
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\bin\Debug\Market Otomasyonu.pdb
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market Otomasyonu.csproj.AssemblyReference.cache
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market Otomasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market_Otomasyonu.giris.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market_Otomasyonu.anaekran.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market_Otomasyonu.Properties.Resources.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market Otomasyonu.csproj.GenerateResource.cache
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market Otomasyonu.exe
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market Otomasyonu.pdb
