@@ -22,5 +22,13 @@ namespace Market_Otomasyonu
             this.Close();
             Application.Exit();
         }
+
+        private void stuffbutton_Click(object sender, EventArgs e)
+        {
+            Stuff stuff = new Stuff();
+            stuff.Show();
+            this.Hide();        
+
+        }
     }
 }

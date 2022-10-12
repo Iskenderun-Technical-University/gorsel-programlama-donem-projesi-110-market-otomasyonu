@@ -119,7 +119,7 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="kullaniciadi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 118</value>
+    <value>146, 61</value>
   </data>
   <data name="kullaniciadi.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 22</value>
@@ -141,7 +141,7 @@
     <value>4</value>
   </data>
   <data name="sifre.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 156</value>
+    <value>146, 101</value>
   </data>
   <data name="sifre.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 22</value>
@@ -162,7 +162,7 @@
     <value>3</value>
   </data>
   <data name="girisbuton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 211</value>
+    <value>188, 160</value>
   </data>
   <data name="girisbuton.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 30</value>
@@ -196,7 +196,7 @@
     <value>NoControl</value>
   </data>
   <data name="kullaniciadilabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 118</value>
+    <value>23, 63</value>
   </data>
   <data name="kullaniciadilabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>106, 20</value>
@@ -229,7 +229,7 @@
     <value>NoControl</value>
   </data>
   <data name="sifrelabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>83, 156</value>
+    <value>80, 101</value>
   </data>
   <data name="sifrelabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 20</value>
