@@ -30,5 +30,12 @@ namespace Market_Otomasyonu
             this.Hide();        
 
         }
+
+        private void maashesaplama_Click(object sender, EventArgs e)
+        {
+            maashesaplama maashesaplamasec  = new maashesaplama();
+            maashesaplamasec.Show();
+            this.Close();
+        }
     }
 }

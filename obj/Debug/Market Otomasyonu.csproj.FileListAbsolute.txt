@@ -35,3 +35,6 @@ C:\Users\yilma\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\
 C:\Users\yilma\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.CoreCompileInputs.cache
 C:\Users\yilma\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.exe
 C:\Users\yilma\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.pdb
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market_Otomasyonu.Stuff.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market_Otomasyonu.Form4.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market_Otomasyonu.maashesaplama.resources
