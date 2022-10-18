@@ -32,6 +32,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.stuffbutton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.maashesaplama = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,11 +71,22 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // maashesaplama
+            // 
+            this.maashesaplama.Location = new System.Drawing.Point(50, 58);
+            this.maashesaplama.Name = "maashesaplama";
+            this.maashesaplama.Size = new System.Drawing.Size(118, 55);
+            this.maashesaplama.TabIndex = 3;
+            this.maashesaplama.Text = "Maaş Hesaplama";
+            this.maashesaplama.UseVisualStyleBackColor = true;
+            this.maashesaplama.Click += new System.EventHandler(this.maashesaplama_Click);
+            // 
             // anaekran
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(816, 450);
+            this.Controls.Add(this.maashesaplama);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.stuffbutton);
             this.Controls.Add(this.button1);
@@ -91,5 +103,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button stuffbutton;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button maashesaplama;
     }
 }

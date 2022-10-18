@@ -31,12 +31,11 @@ namespace Market_Otomasyonu
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void maashesaplama_Click(object sender, EventArgs e)
         {
-            Stuff stuff = new Stuff();
-            stuff.Show();
-            this.Hide();
-
+            maashesaplama maashesaplamasec  = new maashesaplama();
+            maashesaplamasec.Show();
+            this.Close();
         }
     }
 }
