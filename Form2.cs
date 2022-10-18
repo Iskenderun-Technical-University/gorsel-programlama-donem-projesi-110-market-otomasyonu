@@ -30,5 +30,13 @@ namespace Market_Otomasyonu
             this.Hide();        
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Stuff stuff = new Stuff();
+            stuff.Show();
+            this.Hide();
+
+        }
     }
 }

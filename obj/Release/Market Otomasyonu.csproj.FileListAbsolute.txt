@@ -11,3 +11,4 @@ C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otom
 C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market Otomasyonu.csproj.CoreCompileInputs.cache
 C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market Otomasyonu.exe
 C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market Otomasyonu.pdb
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market_Otomasyonu.Form4.resources

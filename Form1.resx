@@ -162,7 +162,7 @@
     <value>3</value>
   </data>
   <data name="girisbuton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>188, 160</value>
+    <value>146, 159</value>
   </data>
   <data name="girisbuton.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 30</value>
