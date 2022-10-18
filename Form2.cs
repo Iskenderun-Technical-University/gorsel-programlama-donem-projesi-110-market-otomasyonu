@@ -37,5 +37,13 @@ namespace Market_Otomasyonu
             maashesaplamasec.Show();
             this.Close();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Stuff stuff = new Stuff();
+            stuff.Show();
+            this.Hide();
+
+        }
     }
 }

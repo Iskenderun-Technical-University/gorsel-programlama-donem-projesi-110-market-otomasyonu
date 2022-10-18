@@ -38,3 +38,19 @@ C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otom
 C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu - Kopya - Kopya\obj\Debug\Market Otomasyonu.csproj.CoreCompileInputs.cache
 C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu - Kopya - Kopya\obj\Debug\Market Otomasyonu.exe
 C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu - Kopya - Kopya\obj\Debug\Market Otomasyonu.pdb
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.AssemblyReference.cache
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.giris.resources
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.anaekran.resources
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Stuff.resources
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.AddStuff.resources
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Form4.resources
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.maashesaplama.resources
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Properties.Resources.resources
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.GenerateResource.cache
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.exe
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.pdb
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.exe.config
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.exe
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.pdb
