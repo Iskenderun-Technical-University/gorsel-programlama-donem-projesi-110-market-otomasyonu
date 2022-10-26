@@ -34,6 +34,7 @@
             this.girisbuton = new System.Windows.Forms.Button();
             this.kullaniciadilabel = new System.Windows.Forms.Label();
             this.sifrelabel = new System.Windows.Forms.Label();
+            this.orderbutton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // kullaniciadi
@@ -67,11 +68,19 @@
             this.sifrelabel.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.sifrelabel.Name = "sifrelabel";
             // 
+            // orderbutton
+            // 
+            resources.ApplyResources(this.orderbutton, "orderbutton");
+            this.orderbutton.Name = "orderbutton";
+            this.orderbutton.UseVisualStyleBackColor = true;
+            this.orderbutton.Click += new System.EventHandler(this.orderbutton_Click);
+            // 
             // giris
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.orderbutton);
             this.Controls.Add(this.sifrelabel);
             this.Controls.Add(this.kullaniciadilabel);
             this.Controls.Add(this.girisbuton);
@@ -91,6 +100,7 @@
         private System.Windows.Forms.Button girisbuton;
         private System.Windows.Forms.Label kullaniciadilabel;
         private System.Windows.Forms.Label sifrelabel;
+        private System.Windows.Forms.Button orderbutton;
     }
 }
 

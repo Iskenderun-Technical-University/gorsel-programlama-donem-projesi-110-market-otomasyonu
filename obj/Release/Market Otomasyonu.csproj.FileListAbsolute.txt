@@ -12,3 +12,20 @@ C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otom
 C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market Otomasyonu.exe
 C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market Otomasyonu.pdb
 C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market_Otomasyonu.Form4.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Release\Market Otomasyonu.exe.config
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Release\Market Otomasyonu.exe
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Release\Market Otomasyonu.pdb
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market Otomasyonu.csproj.AssemblyReference.cache
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market Otomasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market_Otomasyonu.giris.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market_Otomasyonu.anaekran.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market_Otomasyonu.OrderForm.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market_Otomasyonu.Stuff.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market_Otomasyonu.AddStuff.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market_Otomasyonu.Form4.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market_Otomasyonu.maashesaplama.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market_Otomasyonu.Properties.Resources.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market Otomasyonu.csproj.GenerateResource.cache
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market Otomasyonu.exe
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Release\Market Otomasyonu.pdb

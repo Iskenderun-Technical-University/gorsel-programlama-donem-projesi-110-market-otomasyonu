@@ -47,12 +47,10 @@ namespace Market_Otomasyonu
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Stuff stuff = new Stuff();
-            stuff.Show();
-            this.Hide();
-
+        private void orderbutton_Click(object sender, EventArgs e)
+        { 
+            OrderForm orderForm = new OrderForm();
+            orderForm.Show();
         }
     }
 }

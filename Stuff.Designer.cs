@@ -40,11 +40,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.departmanDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.maasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sifreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.isimDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sicilDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button6 = new System.Windows.Forms.Button();
@@ -57,6 +52,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.sicilDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.isimDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sifreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.maasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.departmanDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.table1BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stuffdbDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.newDataSet)).BeginInit();
@@ -151,47 +151,6 @@
             this.button4.Text = "Ana Ekran";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // departmanDataGridViewTextBoxColumn
-            // 
-            this.departmanDataGridViewTextBoxColumn.DataPropertyName = "departman";
-            this.departmanDataGridViewTextBoxColumn.HeaderText = "Departman";
-            this.departmanDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.departmanDataGridViewTextBoxColumn.Name = "departmanDataGridViewTextBoxColumn";
-            this.departmanDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // maasDataGridViewTextBoxColumn
-            // 
-            this.maasDataGridViewTextBoxColumn.DataPropertyName = "maas";
-            this.maasDataGridViewTextBoxColumn.HeaderText = "Maaş (TL)";
-            this.maasDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.maasDataGridViewTextBoxColumn.Name = "maasDataGridViewTextBoxColumn";
-            this.maasDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // sifreDataGridViewTextBoxColumn
-            // 
-            this.sifreDataGridViewTextBoxColumn.DataPropertyName = "sifre";
-            this.sifreDataGridViewTextBoxColumn.HeaderText = "Şifre";
-            this.sifreDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.sifreDataGridViewTextBoxColumn.Name = "sifreDataGridViewTextBoxColumn";
-            this.sifreDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // isimDataGridViewTextBoxColumn
-            // 
-            this.isimDataGridViewTextBoxColumn.DataPropertyName = "isim";
-            this.isimDataGridViewTextBoxColumn.HeaderText = "Ad";
-            this.isimDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.isimDataGridViewTextBoxColumn.Name = "isimDataGridViewTextBoxColumn";
-            this.isimDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // sicilDataGridViewTextBoxColumn
-            // 
-            this.sicilDataGridViewTextBoxColumn.DataPropertyName = "sicil";
-            this.sicilDataGridViewTextBoxColumn.HeaderText = "Sicil No.";
-            this.sicilDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.sicilDataGridViewTextBoxColumn.Name = "sicilDataGridViewTextBoxColumn";
-            this.sicilDataGridViewTextBoxColumn.ReadOnly = true;
-            this.sicilDataGridViewTextBoxColumn.Width = 125;
             // 
             // dataGridView1
             // 
@@ -338,6 +297,47 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Şifre:";
             // 
+            // sicilDataGridViewTextBoxColumn
+            // 
+            this.sicilDataGridViewTextBoxColumn.DataPropertyName = "sicil";
+            this.sicilDataGridViewTextBoxColumn.HeaderText = "Sicil No.";
+            this.sicilDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.sicilDataGridViewTextBoxColumn.Name = "sicilDataGridViewTextBoxColumn";
+            this.sicilDataGridViewTextBoxColumn.ReadOnly = true;
+            this.sicilDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // isimDataGridViewTextBoxColumn
+            // 
+            this.isimDataGridViewTextBoxColumn.DataPropertyName = "isim";
+            this.isimDataGridViewTextBoxColumn.HeaderText = "Ad";
+            this.isimDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.isimDataGridViewTextBoxColumn.Name = "isimDataGridViewTextBoxColumn";
+            this.isimDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // sifreDataGridViewTextBoxColumn
+            // 
+            this.sifreDataGridViewTextBoxColumn.DataPropertyName = "sifre";
+            this.sifreDataGridViewTextBoxColumn.HeaderText = "Şifre";
+            this.sifreDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.sifreDataGridViewTextBoxColumn.Name = "sifreDataGridViewTextBoxColumn";
+            this.sifreDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // maasDataGridViewTextBoxColumn
+            // 
+            this.maasDataGridViewTextBoxColumn.DataPropertyName = "maas";
+            this.maasDataGridViewTextBoxColumn.HeaderText = "Maaş (1 Sa.)";
+            this.maasDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.maasDataGridViewTextBoxColumn.Name = "maasDataGridViewTextBoxColumn";
+            this.maasDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // departmanDataGridViewTextBoxColumn
+            // 
+            this.departmanDataGridViewTextBoxColumn.DataPropertyName = "departman";
+            this.departmanDataGridViewTextBoxColumn.HeaderText = "Departman";
+            this.departmanDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.departmanDataGridViewTextBoxColumn.Name = "departmanDataGridViewTextBoxColumn";
+            this.departmanDataGridViewTextBoxColumn.Width = 125;
+            // 
             // Stuff
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -377,11 +377,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn departmanDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn maasDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sifreDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn isimDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sicilDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button6;
@@ -394,5 +389,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sicilDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn isimDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sifreDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn maasDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn departmanDataGridViewTextBoxColumn;
     }
 }
