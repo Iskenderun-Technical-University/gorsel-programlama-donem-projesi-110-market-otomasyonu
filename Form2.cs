@@ -25,9 +25,9 @@ namespace Market_Otomasyonu
 
         private void stuffbutton_Click(object sender, EventArgs e)
         {
-            Stuff stuff = new Stuff();
+            Employees stuff = new Employees();
             stuff.Show();
-            this.Hide();        
+            this.Close();        
 
         }
 
@@ -40,10 +40,23 @@ namespace Market_Otomasyonu
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Stuff stuff = new Stuff();
+            Employees stuff = new Employees();
             stuff.Show();
-            this.Hide();
+            this.Close();
 
         }
+        private void openorders_Click(object sender, EventArgs e)
+        {
+            Orders orders = new Orders();
+            orders.Show();
+            this.Close();
+
+        }
+
+        private void anaekran_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

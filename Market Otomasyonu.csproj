@@ -59,23 +59,35 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="OrderDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderDetails.Designer.cs">
+      <DependentUpon>OrderDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="OrderForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="OrderForm.Designer.cs">
       <DependentUpon>OrderForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Stuff.cs">
+    <Compile Include="Orders.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Stuff.Designer.cs">
-      <DependentUpon>Stuff.cs</DependentUpon>
+    <Compile Include="Orders.Designer.cs">
+      <DependentUpon>Orders.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddStuff.cs">
+    <Compile Include="Employees.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddStuff.Designer.cs">
-      <DependentUpon>AddStuff.cs</DependentUpon>
+    <Compile Include="Employees.Designer.cs">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployee.Designer.cs">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
     </Compile>
     <Compile Include="newDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -102,20 +114,31 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>stuffdbDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="stuffdbDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>stuffdbDataSet1.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OrderDetails.resx">
+      <DependentUpon>OrderDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OrderForm.resx">
       <DependentUpon>OrderForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Stuff.resx">
-      <DependentUpon>Stuff.cs</DependentUpon>
+    <EmbeddedResource Include="Orders.resx">
+      <DependentUpon>Orders.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddStuff.resx">
-      <DependentUpon>AddStuff.cs</DependentUpon>
+    <EmbeddedResource Include="Employees.resx">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployee.resx">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
@@ -163,6 +186,17 @@
     </None>
     <None Include="stuffdbDataSet.xss">
       <DependentUpon>stuffdbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="stuffdbDataSet1.xsc">
+      <DependentUpon>stuffdbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="stuffdbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>stuffdbDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="stuffdbDataSet1.xss">
+      <DependentUpon>stuffdbDataSet1.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

@@ -8,12 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Market_Otomasyonu;
 
 namespace Market_Otomasyonu
 {
-    public partial class AddStuff : Form
+    public partial class AddEmployee : Form
     {
-        public AddStuff()
+        public AddEmployee()
         {
             InitializeComponent();
         }
@@ -37,10 +38,8 @@ namespace Market_Otomasyonu
 
             cmd.ExecuteNonQuery();
 
-            //MessageBox.Show("Personel Ekleme Tamamlandı!\nDeğişiklikleri görebilmek için 'Yenile' butonunu kullanınız.","Bilgilendirme");
-            Stuff stuff = new Stuff();
-            stuff.GetData();
-            this.Hide();
+            MessageBox.Show("Personel bilgileri başarı ile kaydedildi.","Personel Eklendi",MessageBoxButtons.OK,icon: MessageBoxIcon.Information);
+            this.Close();
 
 
         }

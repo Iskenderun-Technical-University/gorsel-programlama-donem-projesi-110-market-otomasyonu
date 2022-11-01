@@ -10,19 +10,18 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Market_Otomasyonu.SqlVariables;
 
+//TODO: silmek istediğinize emin misiniz 
 namespace Market_Otomasyonu
 {
-    public partial class Stuff : Form
+    public partial class Employees : Form
     {
-        
-        public Stuff()
+        public Employees()
         {
             InitializeComponent();
         }
-
+        //Veri Çek
         public void GetData()
         {
-            //Veri Çek
             SqlCommand cmd = new SqlCommand("Select * from Table_1", SqlVariables.SqlVariables.connection);
             SqlVariables.SqlVariables.CheckConnection(SqlVariables.SqlVariables.connection);
 
@@ -32,62 +31,40 @@ namespace Market_Otomasyonu
             da.Fill(dt);
             dataGridView1.DataSource = dt;
         }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            //Kapat
-            this.Close();   
-            Application.Exit(); 
-
-        }
-
+        //Form Yüklenirken
         private void Stuff_Load_1(object sender, EventArgs e)
         {
-
             GetData();
             comboBox1.SelectedIndex = 0;
         }
-
-
+        //Button Personel Kayıt
         private void button3_Click(object sender, EventArgs e)
         {
-            //Personel Kayıt
-            AddStuff personelkayit = new AddStuff();
+            AddEmployee personelkayit = new AddEmployee();
+            personelkayit.FormClosed += new FormClosedEventHandler(childForm_FormClosed);
             personelkayit.Show();
-            
         }
-
-
+        //Eklemeden sonra veri güncelle
+        private void childForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            GetData();
+        }
+        //Button Ana Ekran
         private void button4_Click(object sender, EventArgs e)
         {
-            //Ana Ekran
             anaekran mainmenu = new anaekran();
             mainmenu.Show();
             this.Close();
 
         }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
+        //Button Yenile
         private void button5_Click(object sender, EventArgs e)
         {
-            //Yenile
             GetData();
         }
-
+        //Button Ara
         private void button1_Click(object sender, EventArgs e)
         {
-            //Ara
             try
             {
                 if(comboBox1.SelectedIndex == 0)
@@ -126,21 +103,13 @@ namespace Market_Otomasyonu
 
 
         }
-
+        //Public değişkenler
         public int selectedID;
         public string selectedN;
         public string selectedP;
         public int selectedS;
         public string selectedD;
-        private void button6_Click(object sender, EventArgs e)
-        {
-            SqlCommand cmd = new SqlCommand("Delete from Table_1 where sicil=@id", SqlVariables.SqlVariables.connection);
-            SqlVariables.SqlVariables.CheckConnection(SqlVariables.SqlVariables.connection);
-            cmd.Parameters.AddWithValue("@id", selectedID);
-            cmd.ExecuteNonQuery();
-            GetData();
-        }
-
+        //Listeden veri al
         private void dataGridView1_SelectionChanged(object sender, EventArgs e)
         {
             try
@@ -162,22 +131,16 @@ namespace Market_Otomasyonu
             textBox5.Text = Convert.ToString(selectedS);
             comboBox2.Text = selectedD;
         }
-
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        //Button Sil
+        private void button6_Click(object sender, EventArgs e)
         {
-
+            SqlCommand cmd = new SqlCommand("Delete from Table_1 where sicil=@id", SqlVariables.SqlVariables.connection);
+            SqlVariables.SqlVariables.CheckConnection(SqlVariables.SqlVariables.connection);
+            cmd.Parameters.AddWithValue("@id", selectedID);
+            cmd.ExecuteNonQuery();
+            GetData();
         }
-
-        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
+        //Button Düzenle
         private void button7_Click(object sender, EventArgs e)
         {
             SqlCommand cmd = new SqlCommand("UPDATE Table_1 SET isim=@name, sifre=@password, maas=@sallary, departman=@department where sicil=@id", SqlVariables.SqlVariables.connection);
@@ -192,6 +155,12 @@ namespace Market_Otomasyonu
             cmd.ExecuteNonQuery();
             GetData();
 
+        }
+        //Button Kapat
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();   
+            Application.Exit();
         }
     }
 }

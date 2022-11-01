@@ -1,6 +1,6 @@
 ﻿namespace Market_Otomasyonu
 {
-    partial class Stuff
+    partial class Employees
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.table1BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.stuffdbDataSet = new Market_Otomasyonu.stuffdbDataSet();
-            this.newDataSet = new Market_Otomasyonu.newDataSet();
-            this.table_1TableAdapter = new Market_Otomasyonu.stuffdbDataSetTableAdapters.Table_1TableAdapter();
             this.button5 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -41,6 +37,13 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.sicilDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.isimDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sifreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.maasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.departmanDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.table1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.stuffdbDataSet = new Market_Otomasyonu.stuffdbDataSet();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button6 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -52,40 +55,19 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.sicilDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.isimDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sifreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.maasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.departmanDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.newDataSet = new Market_Otomasyonu.newDataSet();
+            this.table_1TableAdapter = new Market_Otomasyonu.stuffdbDataSetTableAdapters.Table_1TableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.table1BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stuffdbDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.newDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.newDataSet)).BeginInit();
             this.SuspendLayout();
-            // 
-            // table1BindingSource
-            // 
-            this.table1BindingSource.DataMember = "Table_1";
-            this.table1BindingSource.DataSource = this.stuffdbDataSet;
-            // 
-            // stuffdbDataSet
-            // 
-            this.stuffdbDataSet.DataSetName = "stuffdbDataSet";
-            this.stuffdbDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // newDataSet
-            // 
-            this.newDataSet.DataSetName = "newDataSet";
-            this.newDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // table_1TableAdapter
-            // 
-            this.table_1TableAdapter.ClearBeforeFill = true;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(862, 40);
+            this.button5.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button5.Location = new System.Drawing.Point(851, 24);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 28);
             this.button5.TabIndex = 15;
@@ -95,16 +77,18 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(32, 40);
+            this.textBox1.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox1.Location = new System.Drawing.Point(21, 24);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(138, 22);
+            this.textBox1.Size = new System.Drawing.Size(110, 28);
             this.textBox1.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(337, 37);
+            this.button1.Font = new System.Drawing.Font("Open Sans", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.Location = new System.Drawing.Point(266, 20);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 29);
+            this.button1.Size = new System.Drawing.Size(97, 35);
             this.button1.TabIndex = 1;
             this.button1.Text = "ARA";
             this.button1.UseVisualStyleBackColor = true;
@@ -112,19 +96,20 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Sicil No.",
             "İsim"});
-            this.comboBox1.Location = new System.Drawing.Point(195, 38);
+            this.comboBox1.Location = new System.Drawing.Point(137, 23);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
+            this.comboBox1.Size = new System.Drawing.Size(111, 28);
             this.comboBox1.TabIndex = 2;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1117, 529);
+            this.button2.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.Location = new System.Drawing.Point(1106, 513);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(150, 35);
             this.button2.TabIndex = 3;
@@ -134,7 +119,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(31, 289);
+            this.button3.Location = new System.Drawing.Point(31, 306);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(220, 35);
             this.button3.TabIndex = 12;
@@ -144,7 +129,8 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(973, 529);
+            this.button4.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button4.Location = new System.Drawing.Point(962, 513);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(138, 35);
             this.button4.TabIndex = 13;
@@ -154,6 +140,8 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -164,138 +152,14 @@
             this.maasDataGridViewTextBoxColumn,
             this.departmanDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.table1BindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(32, 92);
+            this.dataGridView1.Location = new System.Drawing.Point(21, 76);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(905, 472);
             this.dataGridView1.TabIndex = 14;
-            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.button6);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.button7);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.groupBox1.Location = new System.Drawing.Point(973, 83);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(294, 366);
-            this.groupBox1.TabIndex = 17;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
-            // 
-            // button6
-            // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button6.Location = new System.Drawing.Point(130, 188);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(121, 25);
-            this.button6.TabIndex = 16;
-            this.button6.Text = "Kayıt Sil";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(130, 30);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(121, 23);
-            this.textBox2.TabIndex = 0;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(130, 59);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(121, 23);
-            this.textBox3.TabIndex = 1;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button7.Location = new System.Drawing.Point(130, 157);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(121, 25);
-            this.button7.TabIndex = 8;
-            this.button7.Text = "Düzenle";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(130, 87);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(121, 23);
-            this.textBox5.TabIndex = 2;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(28, 120);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 16);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Departman:";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Tezgahtar",
-            "Kasiyer",
-            "Depo S.",
-            "Yönetici",
-            "Güvenlik",
-            "Temizlik P.",
-            "Kurye",
-            "Danışma"});
-            this.comboBox2.Location = new System.Drawing.Point(130, 116);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 25);
-            this.comboBox2.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(66, 91);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 16);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Maaş:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(76, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 16);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "İsim:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(72, 63);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 16);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Şifre:";
             // 
             // sicilDataGridViewTextBoxColumn
             // 
@@ -312,6 +176,7 @@
             this.isimDataGridViewTextBoxColumn.HeaderText = "Ad";
             this.isimDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.isimDataGridViewTextBoxColumn.Name = "isimDataGridViewTextBoxColumn";
+            this.isimDataGridViewTextBoxColumn.ReadOnly = true;
             this.isimDataGridViewTextBoxColumn.Width = 125;
             // 
             // sifreDataGridViewTextBoxColumn
@@ -320,6 +185,7 @@
             this.sifreDataGridViewTextBoxColumn.HeaderText = "Şifre";
             this.sifreDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.sifreDataGridViewTextBoxColumn.Name = "sifreDataGridViewTextBoxColumn";
+            this.sifreDataGridViewTextBoxColumn.ReadOnly = true;
             this.sifreDataGridViewTextBoxColumn.Width = 125;
             // 
             // maasDataGridViewTextBoxColumn
@@ -328,6 +194,7 @@
             this.maasDataGridViewTextBoxColumn.HeaderText = "Maaş (1 Sa.)";
             this.maasDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.maasDataGridViewTextBoxColumn.Name = "maasDataGridViewTextBoxColumn";
+            this.maasDataGridViewTextBoxColumn.ReadOnly = true;
             this.maasDataGridViewTextBoxColumn.Width = 125;
             // 
             // departmanDataGridViewTextBoxColumn
@@ -336,13 +203,154 @@
             this.departmanDataGridViewTextBoxColumn.HeaderText = "Departman";
             this.departmanDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.departmanDataGridViewTextBoxColumn.Name = "departmanDataGridViewTextBoxColumn";
+            this.departmanDataGridViewTextBoxColumn.ReadOnly = true;
             this.departmanDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // table1BindingSource
+            // 
+            this.table1BindingSource.DataMember = "Table_1";
+            this.table1BindingSource.DataSource = this.stuffdbDataSet;
+            // 
+            // stuffdbDataSet
+            // 
+            this.stuffdbDataSet.DataSetName = "stuffdbDataSet";
+            this.stuffdbDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.button6);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.button7);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.comboBox2);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox1.Location = new System.Drawing.Point(962, 67);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(294, 366);
+            this.groupBox1.TabIndex = 17;
+            this.groupBox1.TabStop = false;
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Open Sans", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button6.Location = new System.Drawing.Point(130, 216);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(121, 31);
+            this.button6.TabIndex = 16;
+            this.button6.Text = "Kayıt Sil";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(130, 30);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(121, 28);
+            this.textBox2.TabIndex = 0;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(130, 64);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(121, 28);
+            this.textBox3.TabIndex = 1;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.button7.Font = new System.Drawing.Font("Open Sans", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button7.Location = new System.Drawing.Point(130, 176);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(121, 34);
+            this.button7.TabIndex = 8;
+            this.button7.Text = "Düzenle";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(130, 98);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(121, 28);
+            this.textBox5.TabIndex = 2;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Open Sans", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(28, 136);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(88, 18);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Departman:";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Tezgahtar",
+            "Kasiyer",
+            "Depo S.",
+            "Yönetici",
+            "Güvenlik",
+            "Temizlik P.",
+            "Kurye",
+            "Danışma"});
+            this.comboBox2.Location = new System.Drawing.Point(130, 132);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 28);
+            this.comboBox2.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Open Sans", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(66, 102);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(46, 18);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Maaş:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Open Sans", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(76, 34);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(39, 18);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "İsim:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Open Sans", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(72, 68);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(42, 18);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Şifre:";
+            // 
+            // newDataSet
+            // 
+            this.newDataSet.DataSetName = "newDataSet";
+            this.newDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // table_1TableAdapter
+            // 
+            this.table_1TableAdapter.ClearBeforeFill = true;
             // 
             // Stuff
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1299, 604);
+            this.ClientSize = new System.Drawing.Size(1299, 571);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.dataGridView1);
@@ -354,12 +362,12 @@
             this.Name = "Stuff";
             this.Text = "Personel Paneli";
             this.Load += new System.EventHandler(this.Stuff_Load_1);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.table1BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stuffdbDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.newDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.newDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

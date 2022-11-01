@@ -33,6 +33,7 @@
             this.stuffbutton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.maashesaplama = new System.Windows.Forms.Button();
+            this.openorders = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,7 +49,7 @@
             // 
             // stuffbutton
             // 
-            this.stuffbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.stuffbutton.Font = new System.Drawing.Font("Open Sans", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.stuffbutton.ForeColor = System.Drawing.SystemColors.ControlText;
             this.stuffbutton.Location = new System.Drawing.Point(497, 58);
             this.stuffbutton.Name = "stuffbutton";
@@ -81,11 +82,24 @@
             this.maashesaplama.UseVisualStyleBackColor = true;
             this.maashesaplama.Click += new System.EventHandler(this.maashesaplama_Click);
             // 
+            // openorders
+            // 
+            this.openorders.Font = new System.Drawing.Font("Open Sans", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.openorders.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.openorders.Location = new System.Drawing.Point(497, 142);
+            this.openorders.Name = "openorders";
+            this.openorders.Size = new System.Drawing.Size(259, 55);
+            this.openorders.TabIndex = 4;
+            this.openorders.Text = "Siparişler";
+            this.openorders.UseVisualStyleBackColor = true;
+            this.openorders.Click += new System.EventHandler(this.openorders_Click);
+            // 
             // anaekran
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(816, 450);
+            this.Controls.Add(this.openorders);
             this.Controls.Add(this.maashesaplama);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.stuffbutton);
@@ -93,6 +107,7 @@
             this.DoubleBuffered = true;
             this.Name = "anaekran";
             this.Text = "Anaekran";
+            this.Load += new System.EventHandler(this.anaekran_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -104,5 +119,6 @@
         private System.Windows.Forms.Button stuffbutton;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button maashesaplama;
+        private System.Windows.Forms.Button openorders;
     }
 }

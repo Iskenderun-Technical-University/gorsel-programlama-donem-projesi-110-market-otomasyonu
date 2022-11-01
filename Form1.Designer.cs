@@ -46,7 +46,6 @@
             // 
             resources.ApplyResources(this.sifre, "sifre");
             this.sifre.Name = "sifre";
-            this.sifre.TextChanged += new System.EventHandler(this.sifre_TextChanged);
             // 
             // girisbuton
             // 
@@ -60,7 +59,6 @@
             resources.ApplyResources(this.kullaniciadilabel, "kullaniciadilabel");
             this.kullaniciadilabel.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.kullaniciadilabel.Name = "kullaniciadilabel";
-            this.kullaniciadilabel.Click += new System.EventHandler(this.kullaniciadilabel_Click);
             // 
             // sifrelabel
             // 

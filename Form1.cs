@@ -23,34 +23,23 @@ namespace Market_Otomasyonu
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void kullaniciadilabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void sifre_TextChanged(object sender, EventArgs e)
-        {
-        }
-
         private void girisbuton_Click(object sender, EventArgs e)
         {
-            if(kullaniciadi.Text=="admin"&sifre.Text=="123456")
-            {
-                anaekran anaekransec = new anaekran();
-                anaekransec.Show();
-                this.Hide();
-            }
+            anaekran anaekransec = new anaekran();
+            anaekransec.Show();
+
         }
 
         private void orderbutton_Click(object sender, EventArgs e)
         { 
             OrderForm orderForm = new OrderForm();
             orderForm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Orders orders = new Orders();   
+            orders.Show();  
         }
     }
 }
