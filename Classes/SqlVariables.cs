@@ -11,7 +11,7 @@ namespace Market_Otomasyonu.SqlVariables
 {
     public class SqlVariables
     {
-        public static SqlConnection connection = new SqlConnection("Data Source=LAPTOP-S444LMQT\\MSSQLSERVER2;Initial Catalog=stuffdb;Integrated Security=True");
+        public static SqlConnection connection = new SqlConnection("Data Source=DESKTOP-V68AV88;Initial Catalog=marketotomasyonu;Integrated Security=True");
 
         public static void CheckConnection (SqlConnection tempConnection)
         {
