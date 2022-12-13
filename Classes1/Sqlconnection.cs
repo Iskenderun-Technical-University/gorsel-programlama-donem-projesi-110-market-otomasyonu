@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
+//Bağlantıyı sürekli açıp kapatmak yerine metot kullandık.
 namespace Market_Otomasyonu.Classes1
 {
    public class Sqlconnection

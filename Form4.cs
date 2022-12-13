@@ -18,7 +18,7 @@ namespace Market_Otomasyonu
         {
             InitializeComponent();
         }
-
+        //sayfa yüklendiğinde veri tabanından kategori ekranı açılsın.
         private void Form4_Load(object sender, EventArgs e)
             
         {
@@ -27,6 +27,7 @@ namespace Market_Otomasyonu
             SqlDataAdapter da= new SqlDataAdapter(commandListKategori);
             DataTable dt= new DataTable();
             da.Fill(dt);
+            dataGridView1.DataSource = dt;
 
         }
 
@@ -44,8 +45,22 @@ namespace Market_Otomasyonu
         {
 
         }
-
+        //ekle butonuna basıldığında kategori eklenmesi yapılması
         private void button1_Click(object sender, EventArgs e)
+        {
+            SqlCommand commandListKategori = new SqlCommand("insert into Table_1 (Kategori Adı) values (@pname)", Sqlconnection.connection);
+            Sqlconnection.CheckConnection (Sqlconnection.connection);
+            commandListKategori.Parameters.AddWithValue("@pname", Kategoriadi);
+            commandListKategori.ExecuteNonQuery();
+            
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }

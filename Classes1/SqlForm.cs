@@ -39,7 +39,7 @@ namespace Market_Otomasyonu.Classes1
 
 
 
-            //Envanter Ekleme
+            // Sql ile Envanter Ekleme
 
 
 

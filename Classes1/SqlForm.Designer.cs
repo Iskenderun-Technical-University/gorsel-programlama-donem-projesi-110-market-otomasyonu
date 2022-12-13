@@ -44,15 +44,16 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(-12, -2);
+            this.dataGridView1.Location = new System.Drawing.Point(1, 0);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(1881, 378);
+            this.dataGridView1.Size = new System.Drawing.Size(1881, 355);
             this.dataGridView1.TabIndex = 0;
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
@@ -64,7 +65,7 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox1.Size = new System.Drawing.Size(462, 429);
+            this.groupBox1.Size = new System.Drawing.Size(462, 403);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "envanter ekle";
@@ -104,7 +105,7 @@
             this.Ekle.Location = new System.Drawing.Point(210, 322);
             this.Ekle.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Ekle.Name = "Ekle";
-            this.Ekle.Size = new System.Drawing.Size(234, 92);
+            this.Ekle.Size = new System.Drawing.Size(204, 57);
             this.Ekle.TabIndex = 3;
             this.Ekle.Text = "Ekle";
             this.Ekle.UseVisualStyleBackColor = true;
@@ -141,7 +142,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1828, 851);
+            this.ClientSize = new System.Drawing.Size(1097, 851);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
