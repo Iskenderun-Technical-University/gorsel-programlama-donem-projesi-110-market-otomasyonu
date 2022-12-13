@@ -9,9 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
-//TODO: silmek istediğinize emin misiniz 
-//Tıklanabilir Öğelere Courser Eklenecek.
-
 namespace Market_Otomasyonu
 {
     public partial class OrderForm : Form
@@ -43,46 +40,27 @@ namespace Market_Otomasyonu
         }
         //Sepette Satır Oluştur
         public void createRow(int x, int y, int z, int t, int p) {
+            
+            //Başlıkları oluştur
+            void buildLabel(string labelText, Size labelSize, string labelName, Point labelLocation)
+            {
+                System.Windows.Forms.Label newLabel = new System.Windows.Forms.Label();
+                newLabel.AutoSize = true;
+                newLabel.Font = new System.Drawing.Font("Open Sans", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+                newLabel.ForeColor = System.Drawing.SystemColors.InfoText;
+                newLabel.Location = labelLocation;
+                newLabel.Name = labelName;
+                newLabel.Size = labelSize;
+                newLabel.TabIndex = 0;
+                newLabel.Text = labelText;
 
+                groupBox1.Controls.Add(newLabel);
+            }
 
-            // Label Urun Adı Başlık
-            System.Windows.Forms.Label label5 = new System.Windows.Forms.Label();
-            label5.AutoSize = true;
-            label5.Font = new System.Drawing.Font("Open Sans", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            label5.ForeColor = System.Drawing.SystemColors.InfoText;
-            label5.Location = new System.Drawing.Point(20, 38);
-            label5.Name = "label578967";
-            label5.Size = new System.Drawing.Size(47, 20);
-            label5.TabIndex = 0;
-            label5.Text = "Ürün Adı";
+            buildLabel("Ürün Adı", new System.Drawing.Size(47, 20), "urunadi", new System.Drawing.Point(20, 38));
+            buildLabel("Adet", new System.Drawing.Size(47, 20), "adet", new System.Drawing.Point(143, 38));
+            buildLabel("Tutar", new System.Drawing.Size(47, 20), "tutar", new System.Drawing.Point(210, 38));
 
-            groupBox1.Controls.Add(label5);
-
-            // Label Adet Başlık
-            System.Windows.Forms.Label label6 = new System.Windows.Forms.Label();
-            label6.AutoSize = true;
-            label6.Font = new System.Drawing.Font("Open Sans", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            label6.ForeColor = System.Drawing.SystemColors.InfoText;
-            label6.Location = new System.Drawing.Point(143, 38);
-            label6.Name = "label5456435";
-            label6.Size = new System.Drawing.Size(47, 20);
-            label6.TabIndex = 0;
-            label6.Text = "Adet";
-
-            groupBox1.Controls.Add(label6);
-
-            // Label Tutar Başlık
-            System.Windows.Forms.Label label7 = new System.Windows.Forms.Label();
-            label7.AutoSize = true;
-            label7.Font = new System.Drawing.Font("Open Sans", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            label7.ForeColor = System.Drawing.SystemColors.InfoText;
-            label7.Location = new System.Drawing.Point(210, 38);
-            label7.Name = "label5234323";
-            label7.Size = new System.Drawing.Size(47, 20);
-            label7.TabIndex = 0;
-            label7.Text = "Tutar";
-
-            groupBox1.Controls.Add(label7);
 
             // Label tutar toplam
             System.Windows.Forms.Label label8 = new System.Windows.Forms.Label();
@@ -228,12 +206,17 @@ namespace Market_Otomasyonu
         //Sepeti Temizle
         private void button2_Click(object sender, EventArgs e)
         {
-            RemoveSelections();
-            button2.Visible = false;
-            foreach (ListViewItem item in listView1.Items)
+            DialogResult result = MessageBox.Show("Sepeti boşaltmak istediğinizden emin misiniz?", "Sepeti Temizle", MessageBoxButtons.YesNo, icon: MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
             {
-                item.Checked = false;
+                RemoveSelections();
+                button2.Visible = false;
+                foreach (ListViewItem item in listView1.Items)
+                {
+                    item.Checked = false;
+                }
             }
+
         }
         //Stok & Kalem kontrol
         private void listView1_ItemChecked(object sender, ItemCheckedEventArgs e)
@@ -303,7 +286,6 @@ namespace Market_Otomasyonu
         public string UrunYaz()
         {
             int a = groupBox1.Controls.Count - 1;
-            int i = listView1.CheckedItems.Count - 1;
             string s = "";
 
             for (int b = 1; b < a - 2; b += 3)

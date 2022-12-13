@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
@@ -20,7 +14,6 @@ namespace Market_Otomasyonu
         //Form Yükle
         private void Orders_Load(object sender, EventArgs e)
         {
-            // TODO: Bu kod satırı 'stuffdbDataSet1.Siparisler_' tablosuna veri yükler. Bunu gerektiği şekilde taşıyabilir, veya kaldırabilirsiniz.
             this.siparisler_TableAdapter.Fill(this.stuffdbDataSet1.Siparisler_);
             comboBox1.SelectedIndex = 0;
             

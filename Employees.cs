@@ -10,7 +10,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Market_Otomasyonu.SqlVariables;
 
-//TODO: silmek istediğinize emin misiniz 
 namespace Market_Otomasyonu
 {
     public partial class Employees : Form
@@ -134,11 +133,15 @@ namespace Market_Otomasyonu
         //Button Sil
         private void button6_Click(object sender, EventArgs e)
         {
-            SqlCommand cmd = new SqlCommand("Delete from Table_1 where sicil=@id", SqlVariables.SqlVariables.connection);
-            SqlVariables.SqlVariables.CheckConnection(SqlVariables.SqlVariables.connection);
-            cmd.Parameters.AddWithValue("@id", selectedID);
-            cmd.ExecuteNonQuery();
-            GetData();
+            DialogResult result = MessageBox.Show("Personeli veri tabanından silmek istediğinize emin misiniz?", "Personel Sil", MessageBoxButtons.YesNo, icon: MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                SqlCommand cmd = new SqlCommand("Delete from Table_1 where sicil=@id", SqlVariables.SqlVariables.connection);
+                SqlVariables.SqlVariables.CheckConnection(SqlVariables.SqlVariables.connection);
+                cmd.Parameters.AddWithValue("@id", selectedID);
+                cmd.ExecuteNonQuery();
+                GetData();
+            }
         }
         //Button Düzenle
         private void button7_Click(object sender, EventArgs e)

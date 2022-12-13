@@ -66,5 +66,10 @@ namespace Market_Otomasyonu
             Orders orders = new Orders();   
             orders.Show();  
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -27,7 +27,6 @@ namespace Market_Otomasyonu
             SqlDataAdapter da= new SqlDataAdapter(commandListKategori);
             DataTable dt= new DataTable();
             da.Fill(dt);
-            dataGridView1.DataSource = dt;
 
         }
 

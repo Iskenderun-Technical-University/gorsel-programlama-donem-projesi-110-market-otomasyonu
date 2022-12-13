@@ -118,146 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="kullaniciadi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 61</value>
-  </data>
-  <data name="kullaniciadi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 22</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="kullaniciadi.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;kullaniciadi.Name" xml:space="preserve">
-    <value>kullaniciadi</value>
-  </data>
-  <data name="&gt;&gt;kullaniciadi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;kullaniciadi.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;kullaniciadi.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="sifre.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 101</value>
-  </data>
-  <data name="sifre.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 22</value>
-  </data>
-  <data name="sifre.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;sifre.Name" xml:space="preserve">
-    <value>sifre</value>
-  </data>
-  <data name="&gt;&gt;sifre.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sifre.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;sifre.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="girisbuton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 159</value>
-  </data>
-  <data name="girisbuton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 30</value>
-  </data>
-  <data name="girisbuton.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="girisbuton.Text" xml:space="preserve">
-    <value>Giriş</value>
-  </data>
-  <data name="&gt;&gt;girisbuton.Name" xml:space="preserve">
-    <value>girisbuton</value>
-  </data>
-  <data name="&gt;&gt;girisbuton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;girisbuton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;girisbuton.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="kullaniciadilabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="kullaniciadilabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="kullaniciadilabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="kullaniciadilabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 63</value>
-  </data>
-  <data name="kullaniciadilabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 20</value>
-  </data>
-  <data name="kullaniciadilabel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="kullaniciadilabel.Text" xml:space="preserve">
-    <value>Kullanıcı Adı:</value>
-  </data>
-  <data name="&gt;&gt;kullaniciadilabel.Name" xml:space="preserve">
-    <value>kullaniciadilabel</value>
-  </data>
-  <data name="&gt;&gt;kullaniciadilabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;kullaniciadilabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;kullaniciadilabel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="sifrelabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="sifrelabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <data name="sifrelabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="sifrelabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>80, 101</value>
-  </data>
-  <data name="sifrelabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 20</value>
-  </data>
-  <data name="sifrelabel.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="sifrelabel.Text" xml:space="preserve">
-    <value>Şifre:</value>
-  </data>
-  <data name="&gt;&gt;sifrelabel.Name" xml:space="preserve">
-    <value>sifrelabel</value>
-  </data>
-  <data name="&gt;&gt;sifrelabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sifrelabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;sifrelabel.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="orderbutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 9pt, style=Bold</value>
   </data>
   <data name="orderbutton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 211</value>
+    <value>213, 233</value>
   </data>
   <data name="orderbutton.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 32</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="orderbutton.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
@@ -274,6 +144,196 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;orderbutton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Italic</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 239</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 18</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Müşteri misiniz?</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="sifrelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sifrelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="sifrelabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="sifrelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 82</value>
+  </data>
+  <data name="sifrelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="sifrelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="sifrelabel.Text" xml:space="preserve">
+    <value>Şifre:</value>
+  </data>
+  <data name="&gt;&gt;sifrelabel.Name" xml:space="preserve">
+    <value>sifrelabel</value>
+  </data>
+  <data name="&gt;&gt;sifrelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sifrelabel.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;sifrelabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="kullaniciadilabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="kullaniciadilabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="kullaniciadilabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="kullaniciadilabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 42</value>
+  </data>
+  <data name="kullaniciadilabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 20</value>
+  </data>
+  <data name="kullaniciadilabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="kullaniciadilabel.Text" xml:space="preserve">
+    <value>Sicil Numarası:</value>
+  </data>
+  <data name="&gt;&gt;kullaniciadilabel.Name" xml:space="preserve">
+    <value>kullaniciadilabel</value>
+  </data>
+  <data name="&gt;&gt;kullaniciadilabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;kullaniciadilabel.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;kullaniciadilabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="girisbuton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 9pt, style=Bold</value>
+  </data>
+  <data name="girisbuton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="girisbuton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 123</value>
+  </data>
+  <data name="girisbuton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
+  </data>
+  <data name="girisbuton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="girisbuton.Text" xml:space="preserve">
+    <value>Giriş</value>
+  </data>
+  <data name="&gt;&gt;girisbuton.Name" xml:space="preserve">
+    <value>girisbuton</value>
+  </data>
+  <data name="&gt;&gt;girisbuton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;girisbuton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;girisbuton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="sifre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 82</value>
+  </data>
+  <data name="sifre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="sifre.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;sifre.Name" xml:space="preserve">
+    <value>sifre</value>
+  </data>
+  <data name="&gt;&gt;sifre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sifre.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;sifre.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="kullaniciadi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 42</value>
+  </data>
+  <data name="kullaniciadi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="kullaniciadi.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;kullaniciadi.Name" xml:space="preserve">
+    <value>kullaniciadi</value>
+  </data>
+  <data name="&gt;&gt;kullaniciadi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;kullaniciadi.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;kullaniciadi.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 12</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 185</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -286,7 +346,7 @@
     <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>466, 294</value>
+    <value>467, 294</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Giriş</value>
