@@ -81,6 +81,7 @@
             resources.ApplyResources(this.girisbuton, "girisbuton");
             this.girisbuton.Name = "girisbuton";
             this.girisbuton.UseVisualStyleBackColor = true;
+            this.girisbuton.Click += new System.EventHandler(this.girisbuton_Click_1);
             // 
             // sifre
             // 
@@ -96,7 +97,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.orderbutton);

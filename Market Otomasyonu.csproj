@@ -72,6 +72,16 @@
     <Compile Include="Form6.Designer.cs">
       <DependentUpon>Form6.cs</DependentUpon>
     </Compile>
+    <Compile Include="marketotomasyonuDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>marketotomasyonuDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="marketotomasyonuDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>marketotomasyonuDataSet3.xsd</DependentUpon>
+    </Compile>
     <Compile Include="OrderDetails.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -175,6 +185,28 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="marketotomasyonuDataSet11.xsc">
+      <DependentUpon>marketotomasyonuDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="marketotomasyonuDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>marketotomasyonuDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="marketotomasyonuDataSet11.xss">
+      <DependentUpon>marketotomasyonuDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="marketotomasyonuDataSet3.xsc">
+      <DependentUpon>marketotomasyonuDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="marketotomasyonuDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>marketotomasyonuDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="marketotomasyonuDataSet3.xss">
+      <DependentUpon>marketotomasyonuDataSet3.xsd</DependentUpon>
+    </None>
     <None Include="newDataSet.xsc">
       <DependentUpon>newDataSet.xsd</DependentUpon>
     </None>

@@ -21,7 +21,7 @@ namespace Market_Otomasyonu
         //Veri Çek
         public void GetData()
         {
-            SqlCommand cmd = new SqlCommand("Select * from Table_1", SqlVariables.SqlVariables.connection);
+            SqlCommand cmd = new SqlCommand("Select * from marketotomasyonu", SqlVariables.SqlVariables.connection);
             SqlVariables.SqlVariables.CheckConnection(SqlVariables.SqlVariables.connection);
 
             SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -68,7 +68,7 @@ namespace Market_Otomasyonu
             {
                 if(comboBox1.SelectedIndex == 0)
                 {
-                    SqlCommand cmd = new SqlCommand("Select * from Table_1 where sicil=@id",SqlVariables.SqlVariables.connection);
+                    SqlCommand cmd = new SqlCommand("Select * from marketotomasyonu where sicil=@id", SqlVariables.SqlVariables.connection);
                     cmd.Parameters.AddWithValue("@id", Convert.ToInt32(textBox1.Text));
                     SqlVariables.SqlVariables.CheckConnection(SqlVariables.SqlVariables.connection);
 
@@ -81,7 +81,7 @@ namespace Market_Otomasyonu
                 } 
                 else if (comboBox1.SelectedIndex == 1)
                 {
-                    SqlCommand cmd = new SqlCommand("Select * from Table_1 where isim=@name", SqlVariables.SqlVariables.connection);
+                    SqlCommand cmd = new SqlCommand("Select * from marketotomasyonu where isim=@name", SqlVariables.SqlVariables.connection);
                     cmd.Parameters.AddWithValue("@name",textBox1.Text);
                     SqlVariables.SqlVariables.CheckConnection(SqlVariables.SqlVariables.connection);
 
@@ -136,7 +136,7 @@ namespace Market_Otomasyonu
             DialogResult result = MessageBox.Show("Personeli veri tabanından silmek istediğinize emin misiniz?", "Personel Sil", MessageBoxButtons.YesNo, icon: MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
-                SqlCommand cmd = new SqlCommand("Delete from Table_1 where sicil=@id", SqlVariables.SqlVariables.connection);
+                SqlCommand cmd = new SqlCommand("Delete from marketotomasyonu where sicil=@id", SqlVariables.SqlVariables.connection);
                 SqlVariables.SqlVariables.CheckConnection(SqlVariables.SqlVariables.connection);
                 cmd.Parameters.AddWithValue("@id", selectedID);
                 cmd.ExecuteNonQuery();
@@ -146,7 +146,7 @@ namespace Market_Otomasyonu
         //Button Düzenle
         private void button7_Click(object sender, EventArgs e)
         {
-            SqlCommand cmd = new SqlCommand("UPDATE Table_1 SET isim=@name, sifre=@password, maas=@sallary, departman=@department where sicil=@id", SqlVariables.SqlVariables.connection);
+            SqlCommand cmd = new SqlCommand("UPDATE marketotomasyonu SET isim=@name, sifre=@password, maas=@sallary, departman=@department where sicil=@id", SqlVariables.SqlVariables.connection);
             SqlVariables.SqlVariables.CheckConnection(SqlVariables.SqlVariables.connection);
 
             cmd.Parameters.AddWithValue("@name", textBox2.Text);

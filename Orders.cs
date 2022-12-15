@@ -14,7 +14,8 @@ namespace Market_Otomasyonu
         //Form Yükle
         private void Orders_Load(object sender, EventArgs e)
         {
-            this.siparisler_TableAdapter.Fill(this.stuffdbDataSet1.Siparisler_);
+            // TODO: Bu kod satırı 'marketotomasyonuDataSet1.siparis2' tablosuna veri yükler. Bunu gerektiği şekilde taşıyabilir, veya kaldırabilirsiniz.
+            this.siparis2TableAdapter.Fill(this.marketotomasyonuDataSet1.siparis2);
             comboBox1.SelectedIndex = 0;
             
 
@@ -22,7 +23,7 @@ namespace Market_Otomasyonu
         //Veri Çek
         public void getData()
         {
-            this.siparisler_TableAdapter.Fill(this.stuffdbDataSet1.Siparisler_);
+            this.siparis2TableAdapter.Fill(this.marketotomasyonuDataSet1.siparis2);
             dataGridView1.DataSource = this.stuffdbDataSet1.Siparisler_;
         }
         //Hücre tıklama eventi
@@ -56,7 +57,7 @@ namespace Market_Otomasyonu
 
             else if (comboBox1.SelectedIndex == 0)
             {
-                SqlCommand cmd = new SqlCommand("SELECT * from Siparisler_ where siparisno=@qtext", SqlVariables.SqlVariables.connection);
+                SqlCommand cmd = new SqlCommand("SELECT * from siparis2 where siparisno=@qtext", SqlVariables.SqlVariables.connection);
                 SqlVariables.SqlVariables.CheckConnection(SqlVariables.SqlVariables.connection);
                 cmd.Parameters.AddWithValue("@qtext", textBox1.Text);
                 cmd.ExecuteNonQuery();
@@ -67,7 +68,7 @@ namespace Market_Otomasyonu
             }
             else if(comboBox1.SelectedIndex == 1)
             {
-                SqlCommand cmd = new SqlCommand("SELECT * from Siparisler_ where isim=@qtext", SqlVariables.SqlVariables.connection);
+                SqlCommand cmd = new SqlCommand("SELECT * from siparis2 where isim=@qtext", SqlVariables.SqlVariables.connection);
                 SqlVariables.SqlVariables.CheckConnection(SqlVariables.SqlVariables.connection);
                 cmd.Parameters.AddWithValue("@qtext", textBox1.Text);
                 cmd.ExecuteNonQuery();
@@ -78,7 +79,7 @@ namespace Market_Otomasyonu
             }
             else if (comboBox1.SelectedIndex == 2)
             {
-                SqlCommand cmd = new SqlCommand("SELECT * from Siparisler_ where telefon=@qtext", SqlVariables.SqlVariables.connection);
+                SqlCommand cmd = new SqlCommand("SELECT * from siparis2 where telefon=@qtext", SqlVariables.SqlVariables.connection);
                 SqlVariables.SqlVariables.CheckConnection(SqlVariables.SqlVariables.connection);
                 cmd.Parameters.AddWithValue("@qtext", textBox1.Text);
                 cmd.ExecuteNonQuery();
@@ -94,6 +95,13 @@ namespace Market_Otomasyonu
         private void button2_Click(object sender, EventArgs e)
         {
             getData();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            anaekran anaecransec = new anaekran();
+            anaecransec.Show();
+            this.Close();
         }
     }
 }

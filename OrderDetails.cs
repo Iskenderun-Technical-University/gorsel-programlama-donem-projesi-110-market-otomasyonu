@@ -21,7 +21,7 @@ namespace Market_Otomasyonu
         //Button Kaydı Sil
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlCommand cmd = new SqlCommand("DELETE from Siparisler_ where siparisno=@siparisno", SqlVariables.SqlVariables.connection);
+            SqlCommand cmd = new SqlCommand("DELETE from siparis2 where siparisno=@siparisno", SqlVariables.SqlVariables.connection);
             SqlVariables.SqlVariables.CheckConnection(SqlVariables.SqlVariables.connection);
             cmd.Parameters.AddWithValue("@siparisno", label12.Text);
             cmd.ExecuteNonQuery();

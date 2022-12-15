@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -30,6 +31,27 @@ namespace Market_Otomasyonu
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hesapla_Click(object sender, EventArgs e)
+        {
+            SqlConnection baglanti = SqlVariables.SqlVariables.connection;
+            SqlCommand oku = new SqlCommand("Select * from marketotomasyonu where sicil=@pname", SqlVariables.SqlVariables.connection);
+            oku.Parameters.AddWithValue("@pname", textBox2.Text);
+            oku.CommandText = "Select maas from marketotomasyonu";
+            baglanti.Close();
+            baglanti.Open();
+            var maas = oku.ExecuteScalar();
+            int a = (int)maas;
+            int b = int.Parse(textBox1.Text);
+            ucret.Text = (a * b).ToString();
+
+            baglanti.Close();
+        }
+
+        private void maashesaplama_Load(object sender, EventArgs e)
         {
 
         }

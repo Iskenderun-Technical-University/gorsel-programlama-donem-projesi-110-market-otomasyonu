@@ -36,6 +36,8 @@
             this.adresDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tutarDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.urunlerDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.siparis2BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.marketotomasyonuDataSet1 = new Market_Otomasyonu.marketotomasyonuDataSet1();
             this.siparislerBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.stuffdbDataSet1 = new Market_Otomasyonu.stuffdbDataSet1();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -43,7 +45,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.siparisler_TableAdapter = new Market_Otomasyonu.stuffdbDataSet1TableAdapters.Siparisler_TableAdapter();
             this.button2 = new System.Windows.Forms.Button();
+            this.siparis2TableAdapter = new Market_Otomasyonu.marketotomasyonuDataSet1TableAdapters.siparis2TableAdapter();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siparis2BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marketotomasyonuDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.siparislerBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stuffdbDataSet1)).BeginInit();
             this.SuspendLayout();
@@ -62,7 +68,7 @@
             this.adresDataGridViewTextBoxColumn,
             this.tutarDataGridViewTextBoxColumn,
             this.urunlerDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.siparislerBindingSource;
+            this.dataGridView1.DataSource = this.siparis2BindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(23, 72);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -131,6 +137,16 @@
             this.urunlerDataGridViewTextBoxColumn.ReadOnly = true;
             this.urunlerDataGridViewTextBoxColumn.Width = 125;
             // 
+            // siparis2BindingSource
+            // 
+            this.siparis2BindingSource.DataMember = "siparis2";
+            this.siparis2BindingSource.DataSource = this.marketotomasyonuDataSet1;
+            // 
+            // marketotomasyonuDataSet1
+            // 
+            this.marketotomasyonuDataSet1.DataSetName = "marketotomasyonuDataSet1";
+            this.marketotomasyonuDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // siparislerBindingSource
             // 
             this.siparislerBindingSource.DataMember = "Siparisler_";
@@ -162,7 +178,7 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Open Sans", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.Location = new System.Drawing.Point(268, 28);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 26);
@@ -178,28 +194,49 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(1023, 28);
+            this.button2.Location = new System.Drawing.Point(873, 28);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 26);
+            this.button2.Size = new System.Drawing.Size(115, 26);
             this.button2.TabIndex = 5;
             this.button2.Text = "Yenile";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // siparis2TableAdapter
+            // 
+            this.siparis2TableAdapter.ClearBeforeFill = true;
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button3.Location = new System.Drawing.Point(994, 28);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(104, 26);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "AnaEkran";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Orders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1123, 472);
+            this.ControlBox = false;
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
+            this.MaximizeBox = false;
             this.Name = "Orders";
             this.Text = "Orders";
             this.Load += new System.EventHandler(this.Orders_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siparis2BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marketotomasyonuDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.siparislerBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stuffdbDataSet1)).EndInit();
             this.ResumeLayout(false);
@@ -222,5 +259,9 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private marketotomasyonuDataSet1 marketotomasyonuDataSet1;
+        private System.Windows.Forms.BindingSource siparis2BindingSource;
+        private marketotomasyonuDataSet1TableAdapters.siparis2TableAdapter siparis2TableAdapter;
+        private System.Windows.Forms.Button button3;
     }
 }

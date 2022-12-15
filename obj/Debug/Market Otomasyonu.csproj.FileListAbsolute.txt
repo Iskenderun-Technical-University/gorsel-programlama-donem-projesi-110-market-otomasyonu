@@ -169,3 +169,5 @@ C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-o
 C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.exe.config
 C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.exe
 C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.pdb
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Classes1.SqlForm.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Form6.resources

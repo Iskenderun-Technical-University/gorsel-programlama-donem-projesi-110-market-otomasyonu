@@ -29,7 +29,7 @@ namespace Market_Otomasyonu
         {
             //Ekle
 
-            SqlCommand cmd = new SqlCommand("Insert into Table_1 (isim,sifre,maas,departman) values (@sname,@spassword,@ssallary,@sdepartment)",SqlVariables.SqlVariables.connection);  
+            SqlCommand cmd = new SqlCommand("Insert into marketotomasyonu (isim,sifre,maas,departman) values (@sname,@spassword,@ssallary,@sdepartment)",SqlVariables.SqlVariables.connection);  
             SqlVariables.SqlVariables.CheckConnection(SqlVariables.SqlVariables.connection);  
             cmd.Parameters.AddWithValue("@sname",textBox1.Text +" " + textBox4.Text); 
             cmd.Parameters.AddWithValue("@spassword",textBox2.Text); 

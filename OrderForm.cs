@@ -30,10 +30,10 @@ namespace Market_Otomasyonu
             foreach (DataRow row in dt.Rows)
             {
                 //Add Item to ListView.
-                ListViewItem item = new ListViewItem(row["urunkodu"].ToString());
-                item.SubItems.Add(row["urunadi"].ToString());
-                item.SubItems.Add(row["fiyat"].ToString());
-                item.SubItems.Add(row["stok"].ToString());
+                ListViewItem item = new ListViewItem(row["envanter_adedi"].ToString());
+                item.SubItems.Add(row["envanter_ismi"].ToString());
+                item.SubItems.Add(row["envanter_fiyatı"].ToString());
+                item.SubItems.Add(row["envanter_adedi"].ToString());
                 listView1.Items.Add(item);
             }
 
@@ -241,7 +241,7 @@ namespace Market_Otomasyonu
 
             for (int b = 1; b < a-2; b += 3)
             {
-                SqlCommand cmd = new SqlCommand("UPDATE Urunler SET stok=@stok where urunadi=@urunadi", SqlVariables.SqlVariables.connection);
+                SqlCommand cmd = new SqlCommand("UPDATE Urunler SET envanter_adedi=@stok where envanter_ismi=@urunadi", SqlVariables.SqlVariables.connection);
                 int stok = Convert.ToInt32(listView1.CheckedItems[i].SubItems[3].Text) - Convert.ToInt32(groupBox1.Controls[a - b - 1].Text);
                 cmd.Parameters.AddWithValue("@stok", stok);
                 cmd.Parameters.AddWithValue("@urunadi", groupBox1.Controls[a - b].Text);
@@ -332,7 +332,7 @@ namespace Market_Otomasyonu
             }
             else
             {
-                SqlCommand cmd = new SqlCommand("Insert into Siparisler_ (isim,telefon,adres,tutar,urunler) values (@isim,@telefon,@adres,@tutar,@urunler)", SqlVariables.SqlVariables.connection);
+                SqlCommand cmd = new SqlCommand("Insert into siparis2 (isim,telefon,adres,tutar,urunler) values (@isim,@telefon,@adres,@tutar,@urunler)", SqlVariables.SqlVariables.connection);
                 SqlVariables.SqlVariables.CheckConnection(SqlVariables.SqlVariables.connection);
                 cmd.Parameters.AddWithValue("@isim", textBox1.Text);
                 cmd.Parameters.AddWithValue("@telefon", textBox2.Text);
@@ -352,6 +352,11 @@ namespace Market_Otomasyonu
 
             }
             button2.Visible = false;
+
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
 
         }
     }

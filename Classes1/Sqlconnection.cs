@@ -11,7 +11,7 @@ namespace Market_Otomasyonu.Classes1
 {
    public class Sqlconnection
     {
-        public static SqlConnection connection = new SqlConnection("Data Source=LAPTOP-HTJQEGE6;Initial Catalog=deneme;Integrated Security=True");
+        public static SqlConnection connection = new SqlConnection("Data Source=DESKTOP-V68AV88;Initial Catalog=marketotomasyonu;Integrated Security=True");
 
         public static void CheckConnection(SqlConnection tempConnection)
         {
