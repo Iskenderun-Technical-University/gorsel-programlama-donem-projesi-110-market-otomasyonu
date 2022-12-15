@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Market_Otomasyonu
 {
@@ -37,18 +38,21 @@ namespace Market_Otomasyonu
 
         private void hesapla_Click(object sender, EventArgs e)
         {
+         
             SqlConnection baglanti = SqlVariables.SqlVariables.connection;
-            SqlCommand oku = new SqlCommand("Select * from marketotomasyonu where sicil=@pname", SqlVariables.SqlVariables.connection);
-            oku.Parameters.AddWithValue("@pname", textBox2.Text);
-            oku.CommandText = "Select maas from marketotomasyonu";
-            baglanti.Close();
+            
+            int a=0;
+            SqlCommand komut = new SqlCommand("select * from marketotomasyonu where sicil like '" + textBox2.Text + "'", baglanti);
             baglanti.Open();
-            var maas = oku.ExecuteScalar();
-            int a = (int)maas;
+            SqlDataReader read = komut.ExecuteReader();
+            while (read.Read())
+            {
+                 a = Convert.ToInt32(read["maas"]);
+            }
+            baglanti.Close();
             int b = int.Parse(textBox1.Text);
             ucret.Text = (a * b).ToString();
 
-            baglanti.Close();
         }
 
         private void maashesaplama_Load(object sender, EventArgs e)
