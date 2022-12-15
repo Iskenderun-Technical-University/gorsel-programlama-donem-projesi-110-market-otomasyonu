@@ -1,0 +1,171 @@
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\bin\Debug\Market Otomasyonu.exe.config
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\bin\Debug\Market Otomasyonu.exe
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\bin\Debug\Market Otomasyonu.pdb
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market Otomasyonu.csproj.AssemblyReference.cache
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market Otomasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market_Otomasyonu.giris.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market_Otomasyonu.anaekran.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market_Otomasyonu.Properties.Resources.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market Otomasyonu.csproj.GenerateResource.cache
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market Otomasyonu.exe
+C:\Users\Osman\Desktop\Market Otomasyonu\MarketOtomasyonu\obj\Debug\Market Otomasyonu.pdb
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.exe
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.giris.resources
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.anaekran.resources
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Stuff.resources
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Properties.Resources.resources
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.GenerateResource.cache
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.exe.config
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.exe
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.pdb
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.pdb
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.AssemblyReference.cache
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.AddStuff.resources
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu - Kopya - Kopya\bin\Debug\Market Otomasyonu.exe.config
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu - Kopya - Kopya\bin\Debug\Market Otomasyonu.exe
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu - Kopya - Kopya\bin\Debug\Market Otomasyonu.pdb
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu - Kopya - Kopya\obj\Debug\Market Otomasyonu.csproj.AssemblyReference.cache
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu - Kopya - Kopya\obj\Debug\Market Otomasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu - Kopya - Kopya\obj\Debug\Market_Otomasyonu.giris.resources
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu - Kopya - Kopya\obj\Debug\Market_Otomasyonu.anaekran.resources
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu - Kopya - Kopya\obj\Debug\Market_Otomasyonu.Stuff.resources
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu - Kopya - Kopya\obj\Debug\Market_Otomasyonu.AddStuff.resources
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu - Kopya - Kopya\obj\Debug\Market_Otomasyonu.Properties.Resources.resources
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu - Kopya - Kopya\obj\Debug\Market Otomasyonu.csproj.GenerateResource.cache
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu - Kopya - Kopya\obj\Debug\Market Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu - Kopya - Kopya\obj\Debug\Market Otomasyonu.exe
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu - Kopya - Kopya\obj\Debug\Market Otomasyonu.pdb
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.AssemblyReference.cache
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.giris.resources
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.anaekran.resources
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Stuff.resources
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.AddStuff.resources
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Form4.resources
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.maashesaplama.resources
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Properties.Resources.resources
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.GenerateResource.cache
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.exe
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.pdb
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.exe.config
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.exe
+C:\Users\Meto\Desktop\bb\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.pdb
+C:\Users\Meto\Desktop\a\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.exe.config
+C:\Users\Meto\Desktop\a\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.exe
+C:\Users\Meto\Desktop\a\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.pdb
+C:\Users\Meto\Desktop\a\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.AssemblyReference.cache
+C:\Users\Meto\Desktop\a\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Meto\Desktop\a\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.giris.resources
+C:\Users\Meto\Desktop\a\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.anaekran.resources
+C:\Users\Meto\Desktop\a\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Stuff.resources
+C:\Users\Meto\Desktop\a\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.AddStuff.resources
+C:\Users\Meto\Desktop\a\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Form4.resources
+C:\Users\Meto\Desktop\a\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.maashesaplama.resources
+C:\Users\Meto\Desktop\a\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Properties.Resources.resources
+C:\Users\Meto\Desktop\a\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.GenerateResource.cache
+C:\Users\Meto\Desktop\a\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Meto\Desktop\a\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.exe
+C:\Users\Meto\Desktop\a\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.pdb
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Form4.resources
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.maashesaplama.resources
+C:\Users\Meto\Desktop\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.OrderForm.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.exe.config
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.exe
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.pdb
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.AssemblyReference.cache
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.giris.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.anaekran.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.OrderForm.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Form4.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.maashesaplama.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Properties.Resources.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.GenerateResource.cache
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.exe
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.pdb
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Orders.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.OrderDetails.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Employees.resources
+C:\Users\Meto\Desktop\sd\csproject\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.AddEmployee.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.exe.config
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.exe
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.pdb
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.AssemblyReference.cache
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.giris.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.anaekran.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.OrderDetails.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.OrderForm.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Orders.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Employees.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.AddEmployee.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Form4.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.maashesaplama.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Properties.Resources.resources
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.GenerateResource.cache
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.exe
+C:\Users\Osman\Desktop\Market Otomasyonu\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.pdb
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market Otomasyonu.csproj.AssemblyReference.cache
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market Otomasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market_Otomasyonu.Classes1.SqlForm.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market_Otomasyonu.giris.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market_Otomasyonu.anaekran.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market_Otomasyonu.Form3.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market_Otomasyonu.OrderDetails.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market_Otomasyonu.OrderForm.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market_Otomasyonu.Orders.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market_Otomasyonu.Employees.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market_Otomasyonu.AddEmployee.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market_Otomasyonu.Form4.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market_Otomasyonu.maashesaplama.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market_Otomasyonu.Properties.Resources.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market Otomasyonu.csproj.GenerateResource.cache
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market Otomasyonu.exe
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.Gİ\obj\Debug\Market Otomasyonu.pdb
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market Otomasyonu.csproj.AssemblyReference.cache
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market Otomasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market_Otomasyonu.Classes1.SqlForm.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market_Otomasyonu.giris.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market_Otomasyonu.anaekran.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market_Otomasyonu.Form3.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market_Otomasyonu.Form6.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market_Otomasyonu.OrderDetails.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market_Otomasyonu.OrderForm.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market_Otomasyonu.Orders.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market_Otomasyonu.Employees.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market_Otomasyonu.AddEmployee.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market_Otomasyonu.Form4.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market_Otomasyonu.maashesaplama.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market_Otomasyonu.Properties.Resources.resources
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market Otomasyonu.csproj.GenerateResource.cache
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market Otomasyonu.exe
+C:\Users\yilma\Source\Repos\gorsel-programlama-donem-projesi-110-market-otomasyonu.gittttttt\obj\Debug\Market Otomasyonu.pdb
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.AssemblyReference.cache
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Classes1.SqlForm.resources
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.giris.resources
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.anaekran.resources
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Form6.resources
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.OrderDetails.resources
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.OrderForm.resources
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Orders.resources
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Employees.resources
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.AddEmployee.resources
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Form4.resources
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.maashesaplama.resources
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market_Otomasyonu.Properties.Resources.resources
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.GenerateResource.cache
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.exe
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\obj\Debug\Market Otomasyonu.pdb
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.exe.config
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.exe
+C:\Users\Meto\Desktop\Yeni klasör\gorsel-programlama-donem-projesi-110-market-otomasyonu\bin\Debug\Market Otomasyonu.pdb
